@@ -1,0 +1,86 @@
+*{
+	box-sizing:border-box;
+}
+body{margin:0;}
+
+.titulo {
+	text-align:center;
+	font-size:37px;
+	font-weight:normal;
+}
+#pontos {
+	display:flex;
+	width:301px;
+	margin: 10px auto;
+	border:none;
+	justify-content: center;
+	align-items: center;
+}
+#pontos span{
+	width:33%;
+	border:none;
+	text-align:center;
+	
+}
+#pt_o {
+	color:blue;
+	font-size:25px;	
+}
+#pt_x {
+	color:green;
+	font-size:25px;
+}
+#ept{
+	color:tomato;
+	font-size:25px;
+}
+.campo {
+   width:301px;
+   height:301px;
+   margin:10px auto;
+   border:.5px solid;
+   display:flex;
+   flex-flow:row wrap;
+
+}
+.caixa  {
+	font-size:80px;
+	width:100px;
+	height:100px;
+	border:.5px solid;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-weight:normal;
+}
+
+#resultado {
+	text-align:center;
+	font-size:30px;
+}
+#resultado button {
+	font-size:25px;
+	border:none;
+	padding:10px;
+	margin-bottom:20px;
+}
+.vitoria.X{
+	background-color:green;
+	color:white;
+	border:none;
+}
+.vitoria.O{
+	background-color:blue;
+	color:white;
+	border:none;
+}
+.empatado{
+	background-color:yellow;
+	color:tomato;
+}
+#limpa{
+	background-color:green;
+}
+#reseta{
+	background-color:tomato;
+}
